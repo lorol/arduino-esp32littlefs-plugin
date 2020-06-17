@@ -5,12 +5,12 @@
 - Everything is kept identified as SPIFFS for compatibility with your previous code like drop-in replacement
 - Same partition scheme and "data" folder is used
 - You can use either LITTLEFS or SPIFFS but not both simultaneously on given Arduino project
-- Find my LITTLEFS library for arduino-esp32 core [here](https://github.com/lorol/arduino-esp32littlefs-plugin/raw/master/src/bin/esp32littlefs.jar)
+- Find my LITTLEFS library for arduino-esp32 core 
 
 ## Installation
 
 - Make sure you use one of the supported versions of Arduino IDE and have ESP32 core installed.
-- Download the tool archive from [here](https://github.com/lorol )
+- Download the tool archive from [here](https://github.com/lorol/arduino-esp32littlefs-plugin/raw/master/src/bin/esp32littlefs.jar)
 - In your Arduino sketchbook directory, create tools directory if it doesn't exist yet.
 - Unpack the tool into tools directory (the path will look like ```<home_dir>/Arduino/tools/ESP32LittleFS/tool/esp32littlefs.jar```).
 - You need [mklittlefs tool](https://github.com/earlephilhower/mklittlefs)  Download the [release](https://github.com/earlephilhower/mklittlefs/releases) and copy it to 
