@@ -1,5 +1,5 @@
 # arduino-esp32littlefs-plugin
-# Arduino ESP32 LittleFS filesystem uploader 
+## Arduino ESP32 LittleFS filesystem uploader 
 
 - Arduino plugin, which packs sketch <b>data</b> folder into LittleFS filesystem image and uploads the image to ESP32 flash memory
 - Everything is kept identified as SPIFFS for compatibility with your previous code like drop-in replacement
@@ -36,7 +36,7 @@ On the OS X create the tools directory in ~/Documents/Arduino/ and unpack the fi
 ## Credits and license
 
 - This work is based on the [original tool](https://github.com/me-no-dev/arduino-esp32fs-plugin/ ) Copyright (c) 2015 Hristo Gochkov (hristo at espressif dot com)
-- Licensed under GPL v2 ([text](LICENSE.txt))
+- Licensed under GPL v2 ([text](LICENSE))
 - ESP8266 variant of same tool, made by [<b>earlephilhower</b> is here](https://github.com/earlephilhower/arduino-esp8266littlefs-plugin)
 - ESP8266 variant of LittleFS libraty, same author: [see here](https://github.com/esp8266/Arduino/tree/master/libraries/LittleFS)
 
