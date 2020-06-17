@@ -5,7 +5,7 @@
 - Everything is kept identified as SPIFFS for compatibility with your previous code like drop-in replacement
 - Same partition scheme and "data" folder is used
 - You can use either LITTLEFS or SPIFFS but not both simultaneously on given Arduino project
-- Find my LITTLEFS library for arduino-esp32 core [here](https://github.com/lorol )
+- Find my LITTLEFS library for arduino-esp32 core [here](https://github.com/lorol/arduino-esp32littlefs-plugin/raw/master/src/bin/esp32littlefs.jar)
 
 ## Installation
 
