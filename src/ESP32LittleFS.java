@@ -265,6 +265,8 @@ public class ESP32LittleFS implements Tool {
         }
       }
     }
+	System.out.println("mklittlefs : " + tool.getAbsolutePath());
+	System.out.println();
 
     //make sure the serial port or IP is defined
     if (serialPort == null || serialPort.isEmpty()) {
@@ -282,6 +284,8 @@ public class ESP32LittleFS implements Tool {
         editor.statusError("LITTLEFS Error: espota not found!");
         return;
       }
+	  System.out.println("espota : "+espota.getAbsolutePath());
+      System.out.println();	
     } else {
       String esptoolCmd = "esptool"+toolExtension;
       esptool = new File(platform.getFolder()+"/tools", esptoolCmd);
@@ -296,6 +300,8 @@ public class ESP32LittleFS implements Tool {
           }
         }
       }
+	  System.out.println("esptool : "+esptool.getAbsolutePath());
+      System.out.println();	
     }
     
     //load a list of all files
