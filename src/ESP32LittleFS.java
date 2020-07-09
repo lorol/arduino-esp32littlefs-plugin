@@ -3,6 +3,8 @@
 /*
   Tool to put the contents of the sketch's "data" subfolder
   into an SPIFFS partition image and upload it to an ESP32 MCU
+  
+  Based on https://github.com/me-no-dev/arduino-esp32fs-plugin/
 
   Copyright (c) 2015 Hristo Gochkov (hristo at espressif dot com)
 
