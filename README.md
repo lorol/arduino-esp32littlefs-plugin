@@ -13,7 +13,7 @@
 - Make sure you use one of the supported versions of Arduino IDE and have ESP32 core installed.
 - Download the tool archive from [here](https://github.com/lorol/arduino-esp32littlefs-plugin/raw/master/src/bin/esp32littlefs.jar)
 - In your Arduino sketchbook directory, create tools directory if it doesn't exist yet.
-- Unpack the tool into tools directory (the path will look like ```<home_dir>/Arduino/tools/ESP32LittleFS/tool/esp32littlefs.jar```).
+- Copy the tool into tools directory (the path will look like ```<home_dir>/Arduino/tools/ESP32LittleFS/tool/esp32littlefs.jar```).
 - You need [mklittlefs tool](https://github.com/earlephilhower/mklittlefs)  Download the [release](https://github.com/earlephilhower/mklittlefs/releases) and copy it to 
 packages\esp32\tools\mklittlefs\<x.x.x>\ or on checkout (dev) environment to: packages\esp32\hardware\esp32\<release>\tools\mklittlefs\
 - Restart Arduino IDE. 
