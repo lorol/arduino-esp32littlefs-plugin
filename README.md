@@ -1,4 +1,5 @@
 # arduino-esp32littlefs-plugin
+
 ## Arduino ESP32 LittleFS filesystem uploader 
 
 - Arduino plugin, which packs sketch <b>data</b> folder into LittleFS filesystem image and uploads the image to ESP32 flash memory
@@ -14,8 +15,8 @@
 - Download the tool archive from [here](https://github.com/lorol/arduino-esp32littlefs-plugin/raw/master/src/bin/esp32littlefs.jar)
 - In your Arduino sketchbook directory, create tools directory if it doesn't exist yet.
 - Copy the tool into tools directory (the path will look like ```<home_dir>/Arduino/tools/ESP32LittleFS/tool/esp32littlefs.jar```).
-- You need [mklittlefs tool](https://github.com/earlephilhower/mklittlefs)  Download the [release](https://github.com/earlephilhower/mklittlefs/releases) and copy it to 
-packages\esp32\tools\mklittlefs\<x.x.x>\ or on checkout (dev) environment to: packages\esp32\hardware\esp32\<release>\tools\mklittlefs\
+- You need [mklittlefs tool](https://github.com/earlephilhower/mklittlefs)  Download the [release](https://github.com/earlephilhower/mklittlefs/releases) 
+- Copy it to <b>/tools</b> folder of esp32 platform where <b>espota</b> and <b>esptool</b> (.py or.exe) tools are located
 - Restart Arduino IDE. 
 
 On the OS X create the tools directory in ~/Documents/Arduino/ and unpack the files there
