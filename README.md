@@ -2,7 +2,7 @@
 
 ## Arduino ESP32 LittleFS filesystem uploader 
 
-- Arduino plugin, which packs sketch <b>data</b> folder into LittleFS filesystem image and uploads the image to ESP32 flash memory
+- Arduino plugin, which packs sketch **data** folder into LittleFS filesystem image and uploads the image to ESP32 flash memory
 - Everything is kept identified as SPIFFS for compatibility with your previous code like drop-in replacement
 - Same partition scheme and "data" folder is used
 - You can use either LITTLEFS or SPIFFS but not both simultaneously on given Arduino project
@@ -16,7 +16,7 @@
 - In your Arduino sketchbook directory, create tools directory if it doesn't exist yet.
 - Copy the tool into tools directory (the path will look like ```<home_dir>/Arduino/tools/ESP32LittleFS/tool/esp32littlefs.jar```).
 - You need [mklittlefs tool](https://github.com/earlephilhower/mklittlefs)  Download the [release](https://github.com/earlephilhower/mklittlefs/releases) 
-- Copy it to <b>/tools</b> folder of esp32 platform where <b>espota</b> and <b>esptool</b> (.py or.exe) tools are located
+- Copy it to **/tools** folder of esp32 platform where **espota** and **esptool** (.py or.exe) tools are located
 - Restart Arduino IDE. 
 
 On the OS X create the tools directory in ~/Documents/Arduino/ and unpack the files there
@@ -39,7 +39,7 @@ On the OS X create the tools directory in ~/Documents/Arduino/ and unpack the fi
 
 - This work is based on the [original tool](https://github.com/me-no-dev/arduino-esp32fs-plugin/ ) Copyright (c) 2015 Hristo Gochkov (hristo at espressif dot com)
 - Licensed under GPL v2 ([text](LICENSE))
-- ESP8266 variant of same tool, made by [<b>earlephilhower</b> is here](https://github.com/earlephilhower/arduino-esp8266littlefs-plugin)
+- ESP8266 variant of same tool, made by [**earlephilhower** is here](https://github.com/earlephilhower/arduino-esp8266littlefs-plugin)
 - ESP8266 variant of LittleFS libraty, same author: [see here](https://github.com/esp8266/Arduino/tree/master/libraries/LittleFS)
 
 ## Quick building on Win:
@@ -47,6 +47,6 @@ On the OS X create the tools directory in ~/Documents/Arduino/ and unpack the fi
 - Install Java JDK 
 - Find the path of javac.exe and jar.exe
 - Edit make_win.bat accordingly
-- Copy files <b>arduino-core.jar , commons-codec-1.7.jar , pde.jar</b>  from your Arduino IDE installation to the folder where is located <b>make_win.bat</b>
-- Run <b>make_win.bat</b>
-- Find the <b>build jar</b> in /bin directory 
+- Copy files **arduino-core.jar , commons-codec-1.7.jar , pde.jar**  from your Arduino IDE installation to the folder where is located **make_win.bat**
+- Run **make_win.bat**
+- Find the **build jar** in /bin directory 
