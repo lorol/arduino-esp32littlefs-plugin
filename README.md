@@ -1,5 +1,7 @@
 # arduino-esp32littlefs-plugin
 
+***Please use the [universal combined plugin for all FS](https://github.com/lorol/arduino-esp32fs-plugin) instead of this one.***
+
 ## Arduino ESP32 LittleFS filesystem uploader 
 
 - Arduino plugin, which packs sketch **data** folder into LittleFS filesystem image and uploads the image to ESP32 flash memory
